@@ -29,9 +29,9 @@ body > footer {
 	background-image: url("");
 }
 
-body { color: ; }
-h1,h2,h3 { color: ; }
-h4,h5,h6 { color: ; }
+body { color: #494949; }
+h1,h2,h3 { color: #494949; }
+h4,h5,h6 { color: #494949; }
 
 .scheme-alternative body { color: ; }
 .scheme-alternative h1,.scheme-alternative h2,.scheme-alternative h3 { color: ; }

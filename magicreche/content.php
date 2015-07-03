@@ -13,7 +13,7 @@
 			the_excerpt();
 		else :
 			the_content('');
-			?><div class="post-more"><a href="<?php echo esc_url( get_permalink() ); ?>" class="btn btn-primary"><?php _e('Read more', 'magicreche'); ?></a></div><?php
+			?><div class="post-more"><a href="<?php echo esc_url( get_permalink() ); ?>" class="btn btn-primary"><?php _e('Lire la suite', 'magicreche'); ?></a></div><?php
 		endif;
 	?></div>
 </article>

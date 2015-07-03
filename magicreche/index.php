@@ -25,7 +25,7 @@ if( !empty($blog_page_title) ) $blog_page_title = __('Blog', 'magicreche'); ?>
 
 	if( ot_get_option('blog_sidebar', 1) ) { ?>
 	<div class="row">
-		<div class="col-sm-8"><?php
+		<div class="col-sm-12"><?php
 	}
 			if ( have_posts() ) {
 				// Start the Loop.

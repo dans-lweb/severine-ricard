@@ -10,17 +10,23 @@ License: GNU General Public License
 
 /* GLOBAL STYLES
 ==================================================================*/
+@font-face {
+    font-family: Euphemia;
+    src: url(http://localhost/Ricard/wp-content/themes/magicreche/fonts/euphemia.ttf);
+}
+
 
 body {
 	overflow-x: hidden;
+	font-family: Euphemia, "Open Sans", Arial, sans-serif !important;
 }
 
 h3 {
-	font-family:Josefin Sans;
+	font-family:Euphemia !important;
 }
 h4,h5,h6 {
 	color: #222;
-	font-family: Josefin Sans, "Open Sans", Arial, sans-serif;
+	font-family: Euphemia, "Open Sans", Arial, sans-serif !important;
 	font-weight: bold;
 }
 
@@ -47,6 +53,27 @@ a:hover {
 	text-decoration: none;
 }
 
+.entry-title >a {
+	color:#494949;
+}
+
+.entry-title > a:hover{
+	color: #d91e70;
+}
+
+.post-more >a{
+	background-color: #d91e70;
+	float:right;
+}
+
+.post-more > a:hover{
+	background-color: white;
+	color:#d91e70;
+}
+
+
+
+}
 p {
 	margin: 0 0 1em;
 }
@@ -73,6 +100,7 @@ section.page {
 
 .page-title {
 	text-align: center;
+	margin-bottom:4%;
 }
 
 .google-map {
@@ -116,6 +144,8 @@ section {
 section > .container {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	border-bottom: 1px solid #d91e70;
+	color:#494949;
 }
 
 .clear {
@@ -208,7 +238,8 @@ footer .row {
 	color: #fff;
 	display: block;
 	margin: 0 auto;
-	position: absolute;
+	position: relative;
+	padding-top:40%;
 	text-align: center;
 	top: 33%;
 	width: 100%;
@@ -279,6 +310,10 @@ footer .row {
 	color: #222;
 }
 
+.btn {
+	border: 1px solid transparent !important;
+	background-color: #d91e70;
+}
 /* TEASER
 ==================================================================*/
 
@@ -369,6 +404,7 @@ footer .row {
 
 .nav-tabs > li > a {
 	font-weight: normal;
+	color:#d91e70;
 }
 
 .tab-content > .tab-pane {
@@ -549,7 +585,7 @@ body > header {
 header h1 {
 	color: #fff;
 	font-size: 36px;
-	margin: 1em 0;
+	margin: 0.5em 0;
 }
 
 .post {
@@ -1112,6 +1148,7 @@ footer li {
 .owl-theme .owl-controls.clickable .owl-page:hover span{
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
+	background: #d91e70 none repeat scroll 0 0
 }
 
 /* If PaginationNumbers is true */
@@ -1246,6 +1283,17 @@ footer li {
 	margin: 0 0 5px;
 }
 #header-languages li { list-style-type: none; }
+
+/* CONTACT FORM
+==================================================================*/
+.wpcf7-form-control.wpcf7-submit.btn.btn-primary.btn-lg{
+	float:right;
+	margin-right: 3%;
+}
+
+.wpcf7-form-control.wpcf7-submit.btn.btn-primary.btn-lg:hover{
+	background-color:white;
+	color:#d91e70;
 
 /* MOBILE STYLES
 ==================================================================*/

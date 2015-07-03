@@ -12,3 +12,15 @@ License: GNU General Public License
 
 @import url("../magicreche/style.css");
 
+@font-face {
+    font-family: Euphemia;
+    src: url(../fonts/euphemia.ttf);
+
+.navbar-nav > li > a {
+	font-size:15px;
+}
+
+.welcome{
+	padding-top:40% !important;
+	position: relative;
+}
